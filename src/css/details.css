@@ -1,0 +1,21 @@
+.block {
+    height: 400px;
+    width: 400px;
+    background-color: bisque;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.dragText {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

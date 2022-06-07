@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: aquamarine;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.basictxt {
+    margin-left: 1.5rem;
+}
+
+
+.infoBody {
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+.eventButton {
+    padding: 12px 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
