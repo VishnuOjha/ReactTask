@@ -9,7 +9,7 @@ export default function Header({ fill }) {
                 <li className='posStyle'>
                     <strong> Position : </strong>
                     <div className='radiogroup'>
-                        <input type="radio" value="center" name="key" checked={fill} onChange={() => { }} /> Center
+                        <input type="radio" value="center" name="key" onChange={() => { }} /> Center
                         <input type="radio" value="lowerRight" name="key" onChange={() => { }} /> Lower Right
 
                     </div>
