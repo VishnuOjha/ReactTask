@@ -1,15 +1,15 @@
 .footer {
     margin-top: 1rem;
     padding: 1rem;
-    background-color: aquamarine;
+    background-color: #a5becc;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     text-align: center;
-
 }
 
-.infoText {
+.infoLink {
+    text-decoration: none;
     color: #000;
 }

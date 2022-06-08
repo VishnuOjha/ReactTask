@@ -4,21 +4,18 @@
     padding: 0;
 }
 
-
 .header {
-    background-color: aquamarine;
+    background-color: #a5becc;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     list-style: none;
-
 }
 
 .basictxt {
     margin-left: 1.5rem;
 }
-
 
 .infoBody {
     padding: 20px;

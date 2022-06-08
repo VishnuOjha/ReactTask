@@ -1,5 +1,5 @@
 .navStyle {
-    background-color: aquamarine;
+    background-color: #a5becc;
     height: 80px;
     display: flex;
     align-items: center;
@@ -16,9 +16,13 @@
 
 .radiogroup {
     margin-left: 1.2rem;
-
 }
 
 input {
     margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.dateInfo {
+    margin-right: 1rem;
 }
