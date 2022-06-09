@@ -1,6 +1,6 @@
 import "../css/details.css";
 import Draggable from "react-draggable";
-import { useEffect, useState } from "react";
+import { useLayoutEffect, useState } from "react";
 
 export default function DetailsPage({
     visible,
@@ -29,7 +29,7 @@ export default function DetailsPage({
         setPos({ pos: { x: x + ui.deltaX, y: y + ui.deltaY } });
     };
 
-    useEffect(() => {
+     useLayoutEffect(() => {
         if (selected === 'center' || selected === 'lowerRight' || visited) {
             setPos({ pos: { x: 0, y: 0 } });
         }
