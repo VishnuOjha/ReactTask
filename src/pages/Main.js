@@ -7,7 +7,8 @@ export default function Main() {
     const [visited, setVisited] = useState("");
     const [visible, setVisible] = useState(true);
     const [selected, setSelected] = useState("");
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState('');
+
 
     useEffect(() => {
         const retunData = JSON.parse(localStorage.getItem("back"));

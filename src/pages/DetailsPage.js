@@ -17,6 +17,7 @@ export default function DetailsPage({
     };
     const stopHandler = () => {
         setCount(0);
+        setDrag(false)
     };
 
     const [pos, setPos] = useState({
@@ -28,15 +29,13 @@ export default function DetailsPage({
         setPos({ pos: { x: x + ui.deltaX, y: y + ui.deltaY } });
     };
 
-    console.log(count);
-
     useEffect(() => {
-        if (count === 0) {
+        if (selected === 'center' || selected === 'lowerRight' || visited) {
             setPos({ pos: { x: 0, y: 0 } });
         }
-    }, [count]);
 
-    console.log(pos);
+    }, [selected, visited]);
+
 
     function showtext(selected, drag, visited) {
         if (selected === "center" || visited) {
@@ -61,26 +60,29 @@ export default function DetailsPage({
                             : "container"
                 }
             >
-                <Draggable
-                    bounds="parent"
-                    onStart={startHandler}
-                    onStop={stopHandler}
-                    onDrag={handleDrag}
-                    className="container"
-                    defaultPosition={{ x: 0, y: 0 }}
-                >
-                    {visible ? (
+
+                {visible ? (
+                    <Draggable
+                        bounds="parent"
+                        onStart={startHandler}
+                        onStop={stopHandler}
+                        onDrag={handleDrag}
+                        position={pos.pos}
+
+
+                    >
                         <div className={visited ? "blockVisited" : "block"}>
                             <div className="centerText">
                                 {showtext(selected, drag, visited)}
                             </div>
                             <div className="dragText">Drage me around...</div>
                         </div>
-                    ) : (
-                        <></>
-                    )}
+                    </Draggable>
+                ) : (
+                    <></>
+                )}
 
-                </Draggable>
+
             </div>
         </div>
     );

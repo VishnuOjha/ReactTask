@@ -75,7 +75,6 @@ export default function Info() {
                 </section>
                 <footer>
                     <button onClick={pushHandler} className="eventButton">
-                        {" "}
                         &#8249; Back
                     </button>
                 </footer>
