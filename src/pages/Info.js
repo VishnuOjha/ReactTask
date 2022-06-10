@@ -15,7 +15,7 @@ export default function Info() {
                     <span className="basictxt"> Page 2 </span>
                 </nav>
                 <section className="infoBody">
-                        <h2>My short Introduction </h2><br/>
+                        <h2>My Introduction </h2><br/>
                         <p>
                             My self Vishnu Ojha, I have completed my Bachelor's degree in Computer Engineering,
                             From Apollo Institute of Engineering and Technology, Ahmedabad, Gujarat.        <br/>
