@@ -20,11 +20,11 @@ export default function Info() {
                             My self Vishnu Ojha, I have completed my Bachelor's degree in Computer Engineering,
                             From Apollo Institute of Engineering and Technology, Ahmedabad, Gujarat.        <br/>
                             Currently I'm working as React Developer in Sketchish Designer LLP, 
-                            Which is Product Based company and Start up. Here in the sketchish i have so many,
+                            Which is Product Based company and Start up. Here in the sketchish i have learned so many,
                             thing about react and java script, I have gained lot of practicle and Real time project knowledge.
                             I have a knowledge of Html, Css, Java script and React js, Redux, material ui, swr, axios and other libraries as well . <br/>  
-                            I want to learn and expolore more technology, so i can gain more knowledge and utilize to build more efficenct and well structured projects  <br/>
-                            My hobbies are  travel, read and explore more technolog or programming langugae so i can keep my self up to date with current technology trends.
+                            I want to learn and expolore more technology, so i can gain more knowledge and utilize it to build more efficenct and well structured products  <br/>
+                            My hobbies are traveling, reading and explore more technology or programming language so i can keep my self up to date with current technology trends.
                             
                         </p>
                             <br/>
