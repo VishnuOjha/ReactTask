@@ -22,7 +22,7 @@ export default function Info() {
                             Currently I'm working as React Developer in Sketchish Designer LLP, 
                             Which is Product Based company and Start up. Here in the sketchish i have learned so many,
                             thing about react and java script, I have gained lot of practicle and Real time project knowledge.
-                            I have a knowledge of Html, Css, Java script and React js, Redux, material ui, swr, axios and other libraries as well . <br/>  
+                            I have a knowledge of Html, Css, Java script and React js,Redux,materialui,swr,axios and other libraries as well . <br/>  
                             I want to learn and expolore more technology, so i can gain more knowledge and utilize it to build more efficenct and well structured products  <br/>
                             My hobbies are traveling, reading and explore more technology or programming language so i can keep my self up to date with current technology trends.
                             
